@@ -1,0 +1,19 @@
+# --- Code::Blocks ---
+# Ignorar executáveis e arquivos de objeto compilados
+bin/
+obj/
+*.exe
+*.o
+*.out
+
+# Opcional: Arquivos de layout e workspace do Code::Blocks
+*.depend
+*.layout
+
+# --- VS Code ---
+# Ignorar configurações locais do VS Code (compiladores locais, caminhos, etc)
+.vscode/
+
+# --- Arquivos do Sistema ---
+.DS_Store
+Thumbs.db
