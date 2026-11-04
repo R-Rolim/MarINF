@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1793114799 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\logicamov.c
+1793134100 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\logicamov.c
 	<stdio.h>
 	<stdlib.h>
 	"raylib.h"
@@ -33,10 +33,10 @@
 
 1793114452 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\desenho.h
 
-1793062951 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\structs.h
+1793754662 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\structs.h
 	"raylib.h"
 
-1792960141 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\structs.c
+1793731015 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\structs.c
 	"Structs.h"
 	"raylib.h"
 

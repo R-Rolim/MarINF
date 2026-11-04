@@ -8,5 +8,14 @@ typedef struct JOGADOR{
     float VelX;
     float VelY;
     bool Movendo;
+    bool InputTeclado;
+    bool Invencivel;
 
 }JOGADOR;
+
+typedef struct TARTARUGA{
+
+    bool Existe;
+    Rectangle CorpoTart;
+
+}TARTARUGA;

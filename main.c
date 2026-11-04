@@ -58,6 +58,8 @@ int main(){
         .VelX = 0.0,
         .VelY = 0.0,
         .Movendo = false,
+        .InputTeclado = false,
+        .Invencivel = false,
     };
 
     while(!WindowShouldClose()){
