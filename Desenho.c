@@ -29,3 +29,11 @@ void VelocidadeAtual(float VelX, float VelY){
     DrawText(TextFormat("X: %.1f Y: %.1f", VelX, VelY), 650, 10, 30, BLACK);
 
 }
+
+void Setas(bool InputTeclado){
+
+    if (InputTeclado){
+    DrawText("INPUT",850, 10, 30,GREEN);
+    } else {
+        DrawText("INPUT",850, 10, 30,RED);}
+}

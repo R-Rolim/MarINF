@@ -67,7 +67,7 @@ int main(){
 //Movimentação
 
     player.VelY += 20.0 * GetFrameTime();
-    Direcional(&player.Pos, &player.VelX, &player.VelY, &player.Movendo);
+    Direcional(&player.Pos, &player.VelX, &player.VelY, &player.Movendo, &player.InputTeclado);
     Colisao(&player.VelX, &player.VelY, player.Tamanho, &player.Pos, mapa1);
 //Tecla de reset para testes
         if (IsKeyPressed(KEY_R)){
@@ -87,6 +87,7 @@ int main(){
     MovimentoFunciona(&player.Movendo);
     PosicaoAtual(player.Pos.x, player.Pos.y);
     VelocidadeAtual(player.VelX, player.VelY);
+    Setas(player.InputTeclado);
 
     DrawRectangleV(player.Pos,player.Tamanho,RED);
 

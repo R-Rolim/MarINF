@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1793134100 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\logicamov.c
+1793919061 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\logicamov.c
 	<stdio.h>
 	<stdlib.h>
 	"raylib.h"
@@ -12,16 +12,16 @@
 	"mapa.h"
 	"Structs.h"
 
-1793114489 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\desenho.c
+1793919147 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\desenho.c
 	"raylib.h"
 	"Desenho.h"
 	"Structs.h"
 
-1793027476 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\logicamov.h
+1793918672 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\logicamov.h
 
 1792985273 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\mapa.h
 
-1793114452 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\main.c
+1793918928 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\main.c
 	"raylib.h"
 	<stdio.h>
 	<string.h>
@@ -31,12 +31,12 @@
 	"logicaMov.h"
 	"Desenho.h"
 
-1793114452 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\desenho.h
+1793918928 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\desenho.h
 
 1793754662 c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\structs.h
 	"raylib.h"
 
-1793731015 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\structs.c
+1793754662 source:c:\users\usuario\onedrive\햞ea de trabalho\c\marioinf\tmarioinf\structs.c
 	"Structs.h"
 	"raylib.h"
 

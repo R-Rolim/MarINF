@@ -28,33 +28,43 @@ void LimiteVel(float *VelX, float *VelY){
     }
 }
 
-void Direcional(Vector2 *XY,float *VelX, float *VelY, bool *movendo){
+void Direcional(Vector2 *XY,float *VelX, float *VelY, bool *movendo, bool *InputTeclado){
 
+    *InputTeclado = false;
     *movendo = false;
     //*VelX = 0;
     //*VelY = 0;
 
     if (IsKeyDown(KEY_LEFT)){
        *VelX += -6 * GetFrameTime();
-        *movendo = true;
+        *InputTeclado = true;
     }
     if (IsKeyDown(KEY_RIGHT)){
         *VelX += 6 * GetFrameTime();
-        *movendo = true;
+        *InputTeclado = true;
     }
     if (IsKeyDown(KEY_UP)){
        *VelY += -60 * GetFrameTime();
-        *movendo = true;
+        *InputTeclado = true;
     }
     if (IsKeyDown(KEY_DOWN)){
        *VelY += 6 * GetFrameTime();
-        *movendo = true;
+        *InputTeclado = true;
     }
 
     LimiteVel(VelX, VelY);
 
     XY->x += *VelX;
     XY->y += *VelY;
+
+    if (*VelX != 0){
+        *movendo = true;
+        if(VelX > 0 && !*InputTeclado){
+            *VelX -= *VelX/50;
+        } else if(VelX < 0 && !*InputTeclado){
+            *VelX += *VelX/50;
+            }
+    }
 
 }
 
